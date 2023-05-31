@@ -1,0 +1,49 @@
+:root{
+  --pocos-pixeles: 15px;
+  --height: 45px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 60px;
+  justify-content: space-between;
+}
+.azul{
+  background-color: blue;
+}
+.blanco{
+  background-color: white;
+}
+.rojo{
+  background-color: red;
+}
+.pequeño{
+  width: 50px;
+  height: var(--height);
+}
+.grande{
+  width: 150px;
+  height: var(--height);
+}
+.pr{
+  padding-right: var(--pocos-pixeles);
+}
+.pl{
+  padding-left: var(--pocos-pixeles);
+}
+.pb{
+  padding-bottom: var(--pocos-pixeles);
+}
+.pt{
+  padding-top: var(--pocos-pixeles);
+}
+.mb{
+  margin-bottom: var(--pocos-pixeles);
+}
+.mr{
+  margin-right: var(--pocos-pixeles);
+}
+.mb{
+  margin-bottom: var(--pocos-pixeles);
+}
